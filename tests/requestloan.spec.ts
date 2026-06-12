@@ -1,6 +1,6 @@
-import {test} from '../fixtures/authFixture.ts';
-import {LoginPage} from '../pages/loginPage.ts';
-import {RequestLoan} from '../pages/requestLoan.ts';
+import {test} from '../fixtures/authFixture';
+import {LoginPage} from '../pages/loginPage';
+import {RequestLoan} from '../pages/requestLoan';
 
 test('Request for a loan', async({loggedInPage})=>{
      await loggedInPage.goto(
